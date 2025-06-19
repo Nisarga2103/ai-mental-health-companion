@@ -55,8 +55,8 @@ It not only detects the user's emotional state in real-time but also adapts its 
 
 ```
 ai-mental-health-companion/
-├── backend/         # Flask app + ML models
-├── frontend/        # React app with emotion-aware UI
+├── server/         # Flask app + ML models
+├── client/        # React app with emotion-aware UI
 ├── database/        # MySQL schema and seed data
 └── README.md
 ```
@@ -67,14 +67,14 @@ ai-mental-health-companion/
 
 ### ▶️ Backend (Flask + ML)
 ```bash
-cd backend
+cd server
 pip install -r requirements.txt
 python app.py
 ```
 
 ### ▶️ Frontend (React)
 ```bash
-cd frontend
+cd client
 npm install
 npm start
 ```
